@@ -1,3 +1,4 @@
+#!/bin/php
 <?php
 
 use splitbrain\itchy\CLI;

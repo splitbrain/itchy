@@ -21,6 +21,8 @@ class CLI extends PSR3CLI
     /** @inheritdoc */
     protected function setup(Options $options)
     {
+        $options->useCompactHelp(true);
+
         $options->registerCommand('update', 'Update the database with the newest games from your library');
         $options->registerArgument('apikey', 'Itch.io API key', true, 'update');
 
