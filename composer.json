@@ -1,0 +1,22 @@
+{
+  "name": "splitbrain/itch",
+  "autoload": {
+    "psr-4": {
+      "splitbrain\\itchy\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Andreas Gohr",
+      "email": "andi@splitbrain.org"
+    }
+  ],
+  "require": {
+    "splitbrain/php-cli": "^1.1",
+    "rsong/phprequest": "^1.0",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "tburry/pquery": "^1.1",
+    "psr/log": "^2.0"
+  }
+}
